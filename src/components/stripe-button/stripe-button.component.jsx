@@ -15,8 +15,8 @@ const StripeCheckoutButton = ({ price }) => {
     <StripeCheckout
       label="Pay Now"
       name="Zepfferson Clothin Ltd"
-      billingAddress=""
-      shippingAddress=""
+      billingAddress={true}
+      shippingAddress={true}
       image="https://images.unsplash.com/photo-1587906697341-bfbde76785c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
       description={`Your total is £${price}`}
       amount={priceForStripe}
