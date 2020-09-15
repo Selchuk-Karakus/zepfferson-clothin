@@ -9,5 +9,7 @@ export const SignInAndSignUpContainer = styled.div`
   @media screen and (max-width: 800px) {
     width: 380px;
     display: block;
+    padding: 15px;
+    margin-top: 10px;
   }
 `;
