@@ -10,16 +10,16 @@ const Footer = () => (
           Company<span>logo</span>
         </h3>
         <p className="footer-links">
-          <a href="#" class="link-1">
+          <button className="link-1">
             Home
-          </a>
-          <a href="#">Blog</a>
-          <a href="#">Pricing</a>
-          <a href="#">About</a>
-          <a href="#">Faq</a>
-          <a href="#">Contact</a>
+          </button>
+          <button>Blog</button>
+          <button>Pricing</button>
+          <button>About</button>
+          <button>Faq</button>
+          <button>Contact</button>
         </p>
-        <p class="footer-company-name">Selchuk Karakus © 2020</p>
+        <p className="footer-company-name">Selchuk Karakus © 2020</p>
       </div>
 
       <div className="footer-center">
@@ -37,10 +37,6 @@ const Footer = () => (
 
         <div>
           <i className="fa fa-envelope"></i>
-          <p>
-            &copy; {new Date().getFullYear()} Copyright:
-            <a href="https://selchuk-karakus.now.sh/">Selchuk Karakus</a>
-          </p>
         </div>
       </div>
 
@@ -52,18 +48,18 @@ const Footer = () => (
         </p>
 
         <div className="footer-icons">
-          <a href="#">
+          <button>
             <i className="fa fa-facebook"></i>fB
-          </a>
-          <a href="#">
+          </button>
+          <button>
             <i className="fa fa-twitter"></i>Tel
-          </a>
-          <a href="#">
+          </button>
+          <button>
             <i className="fa fa-linkedin"></i>Txt
-          </a>
-          <a href="#">
+          </button>
+          <button>
             <i className="fa fa-github"></i>Z
-          </a>
+          </button>
         </div>
       </div>
     </footer>
